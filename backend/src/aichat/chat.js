@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
-const ai = new GoogleGenerativeAI('AIzaSyCLjNd_nOYh6W6G-topxweTl7IkNhr3Jsk');
+const ai = new GoogleGenerativeAI('AIJsk');
 
 async function getGeminiResponse(prompt) {
     try {
@@ -56,3 +56,4 @@ Avoid long paragraphs. Be short, clear, and focused.`
 }
 
 module.exports = getGeminiResponse;
+
